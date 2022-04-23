@@ -1,0 +1,16 @@
+{
+  "Styled Component": {
+    "description": "Create a Styled Component using injected theme",
+    "prefix": "style",
+    "body": [
+      "import styled, { css } from 'styled-components'",
+      "",
+      "export const Container = styled.div`",
+      "  ${({ theme }) => css`",
+      "    $1",
+      "  `}",
+      "`",
+      ""
+    ]
+  }
+}

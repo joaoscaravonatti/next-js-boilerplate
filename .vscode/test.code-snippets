@@ -1,0 +1,20 @@
+{
+  "Component Test": {
+    "prefix": "test",
+    "description": "Create a Component test suite",
+    "body": [
+      "import { render, screen } from '@testing-library/react'",
+      "",
+      "import ${1:Component} from '.'",
+      "",
+      "describe('<${1:Component} />', () => {",
+      "  it('should render correctly', () => {",
+      "    const { container } = render(<${1:Component} />)",
+      "",
+      "    expect(container.firstChild).toMatchSnapshot()",
+      "  })",
+      "})",
+      ""
+    ]
+  }
+}
