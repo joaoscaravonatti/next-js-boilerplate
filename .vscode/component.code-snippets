@@ -1,14 +1,16 @@
 {
   "React Functional Component": {
-    "prefix": ["rfc"],
+    "prefix": ["component"],
     "body": [
       "// import * as S from './styles'",
       "",
       "// type Props = {}",
       "",
-      "export default function ${1:Component}() {",
+      "const ${1:Component} = () => {",
       "  return ${0:<div />}",
       "}",
+      "",
+      "export default ${1:Component}",
       ""
     ],
     "description": "A React functional component"

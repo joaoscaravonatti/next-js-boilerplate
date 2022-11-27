@@ -1,7 +1,11 @@
 // import * as S from './styles'
 
-// type Props = {}
-
-export default function Example() {
-  return <h1>Example</h1>
+type Props = {
+  message: string
 }
+
+const Example = ({ message }: Props) => {
+  return <h1>{message}</h1>
+}
+
+export default Example

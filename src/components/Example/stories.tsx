@@ -4,7 +4,8 @@ import Example from '.'
 
 export default {
   title: 'Example',
-  component: Example
+  component: Example,
+  args: { message: 'example' }
 } as ComponentMeta<typeof Example>
 
 export const Default: ComponentStory<typeof Example> = (args) => (

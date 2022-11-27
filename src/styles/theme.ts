@@ -46,4 +46,4 @@ export default {
   transitions: {
     short: '200ms'
   }
-}
+} as const
