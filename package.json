@@ -9,7 +9,7 @@
     "lint": "next lint",
     "test": "jest --runInBand --coverage=false",
     "test:watch": "npm test -- --watchAll",
-    "storybook": "start-storybook -p 6006",
+    "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook"
   },
   "dependencies": {
